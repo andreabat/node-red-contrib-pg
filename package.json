@@ -1,0 +1,30 @@
+{
+  "name": "node-red-contrib-pg",
+  "version": "0.0.1",
+  "description": "Yet another postgresql node red module...done right and based on postgrestor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreabat/node-red-contrib-pg.git"
+  },
+  "author": "Andrea Batazzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreabat/node-red-contrib-pg/issues"
+  },
+  "node-red": {
+    "nodes": {
+      "node-red-contrib-pg": "postgres.js"
+    }
+  },
+
+  "homepage": "https://github.com/andreabat/node-red-contrib-pg#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "mustache": "^4.0.1",
+    "pg": "^8.0.3"
+  }
+}
